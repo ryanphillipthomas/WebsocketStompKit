@@ -1,9 +1,6 @@
-xcodeproj 'WebsocketStompKit.xcodeproj'
+workspace 'WebsocketStompKit.xcworkspace'
 
 platform :ios, '6.0'
 
-pod 'jetfire', '0.1.6'
+pod 'jetfire', :git => 'https://github.com/acmacalister/jetfire', :commit => '2a0811d5db6be2451a788b71724ad714ff334610'
 
-target 'WebsocketStompKitTests', :exclusive => true do
-        pod 'Kiwi', '2.2'
-end

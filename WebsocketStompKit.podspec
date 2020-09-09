@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = 'WebsocketStompKit/*.{h,m}'
   s.public_header_files = 'WebsocketStompKit/WebsocketStompKit.h'
   s.requires_arc = true
-  s.dependency     'jetfire', '0.1.6'
+  s.dependency     'jetfire', :git => 'https://github.com/acmacalister/jetfire', :commit => '2a0811d5db6be2451a788b71724ad714ff334610'
 end
